@@ -1,16 +1,13 @@
-## Hi there 👋
-
-<!--
-**kakashi07809/kakashi07809** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ int A=13; 
+int x=1000;
+void setup()
+{
+    pinMode(A,OUTPUT);
+}
+void loop()
+{
+    digitalWrite(A,HIGT);
+    delay(x)
+    digitalWrite(A,LOW);
+    delay(x)
+}
