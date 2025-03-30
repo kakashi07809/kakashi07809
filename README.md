@@ -1,5 +1,5 @@
  int A=13; 
-int x=1000;
+int x=50;
 void setup()
 {
     pinMode(A,OUTPUT);
